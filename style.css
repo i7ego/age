@@ -227,6 +227,9 @@ input[type=number] {
 
 a {
     color: #854dff;
+    position: absolute;
+    top: 629px;
+    left: 405px;
     text-decoration: none;
     font-weight: bold;
     display: flex;
@@ -240,7 +243,7 @@ a {
   
   .label {
     position: absolute;
-    left:500px;
+    left:1100px;
     top: 38px;
     width: 80px;
     height: 40px;
@@ -290,8 +293,12 @@ a {
   @media (max-width: 500px) {
     .label {
         position: absolute;
-        left: 300px;
+        left: 250px;
         top: 100px;
       }
-    
+    a {
+        position: absolute;
+        top: 725px;
+        left: 101px;
+    }
 }
